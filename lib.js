@@ -92,7 +92,7 @@ const startExecuteRound = async (pid, data) => {
 };
 
 const successExecuteRound = async (pid) => {
-  await sleep(predictions[pid].interval * 1000 + config.getPriceTimerOffset);
+  await sleep(predictions[pid].interval * 1000);
   startExecuteRound(pid);
 };
 
