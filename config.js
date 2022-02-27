@@ -5,7 +5,7 @@ const config = {
     restart: true,
     restartTimer: 600000,
     predictions: [
-        {title:'MATIC', keepPaused:false, color:'blue', network:'POLYGONTEST', interval: 300, address:'0xBD2e11702ABd48d9936A157c919B76e53a55F6A6'},
+        {title:'MATIC', color:'blue', network:'POLYGONTEST', interval: 300, address:'0xBD2e11702ABd48d9936A157c919B76e53a55F6A6'},
     ],
     networkSettings: {
         POLYGON: {
